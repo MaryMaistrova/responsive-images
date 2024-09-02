@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+h4 {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+  font-size: 26;
+}
+
+article {
+  min-height: 300px;
+  max-width: 1200px;
+  margin-inline: auto;
+}
