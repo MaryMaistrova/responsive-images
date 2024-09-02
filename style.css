@@ -5,11 +5,19 @@ body {
 h4 {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1 {
   font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
   font-size: 30px;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h3 {
@@ -21,4 +29,6 @@ article {
   min-height: 300px;
   max-width: 1200px;
   margin-inline: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
