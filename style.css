@@ -5,30 +5,138 @@ body {
 h4 {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin-inline: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h1 {
   font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
   font-size: 30px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin-inline: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px 50px;
+  letter-spacing: 1.5px;
+}
+
+img {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
 }
 
 h3 {
   font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
-  font-size: 26;
+  font-size: 26px;
+  letter-spacing: 1.5px;
 }
 
 article {
-  min-height: 300px;
-  max-width: 1200px;
+  min-height: 250px;
+  max-width: 1000px;
   margin-inline: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p {
+  font-size: 16px;
+  color: #565656;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+
+/* code from other project */
+
+footer {
+  width: 100%;
+  margin: auto;
+  background-color: #F4F4F4;
+}
+/* ! */
+@media (min-width: 1001px) {
+  .pain-in-the-ass {
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pain-in-the-ass {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .pain-in-the-ass {
+    width: 300px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logos {
+    margin: auto;
+    width: 700px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 600px) {
+  .logos {
+    margin: auto;
+    width: 300px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+  }
+}
+
+footer h2 {
+  width: 350px;
+  padding-bottom: 0px;
+}
+
+footer h6,
+a {
+  font-size: 16px;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logos {
+  display: flex;
+  gap: 23px;
+}
+
+.logos>img:hover {
+  background-color: #ccf2f5;
+  transition: 500ms;
+  transform: scale(1.2);
+}
+
+.logos>img:not(:hover) {
+  transition: 500ms;
+  transform: scale(0.9);
+}
+
+footer>h6 {
+  margin: auto;
+  width: 300px;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 12px;
+}
+
+@media (max-width: 1000px) {
+  footer>h6 {
+    text-align: center;
+  }
 }
