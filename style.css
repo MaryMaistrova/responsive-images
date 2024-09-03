@@ -53,15 +53,19 @@ footer {
   width: 100%;
   margin: auto;
   background-color: #F4F4F4;
+  cursor: pointer;
 }
-/* ! */
-@media (min-width: 1001px) {
-  .pain-in-the-ass {
-    width: 1000px;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-  }
+
+.pain-in-the-ass {
+  width: 1000px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pain-in-the-ass>div:first-of-type {
+  width: 400px;
 }
 
 @media (max-width: 1000px) {
@@ -92,28 +96,38 @@ footer {
 
 @media (max-width: 600px) {
   .logos {
+    display: flex;
     margin: auto;
     width: 300px;
     padding-bottom: 30px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
   }
 }
 
 footer h2 {
-  width: 350px;
   padding-bottom: 0px;
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: normal;
 }
 
 footer h6,
 a {
   font-size: 16px;
   color: black;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+footer>h6:last-of-type {
+  padding: 20px;
+  padding: 20px;
 }
 
 .logos {
   display: flex;
+  width: 300px;
   gap: 23px;
 }
 
